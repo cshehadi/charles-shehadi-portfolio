@@ -6,33 +6,37 @@ html {
     box-sizing: inherit;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-family: Unica One, Arial, sans-serif;
     text-transform: uppercase;
-    text-align: center;
-}
-
-h3 {
-    font-family: Unica One, Arial, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1rem;
 }
 
 body {
     font-family: Vollkorn, Georgia, serif;
 }
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
 .content {
     max-width: 40em;
-    margin: 2em auto;
+    margin: 2px auto;
     padding: 1em;
 }
 
 header {
     background-color: #7986AC;
     height: 300px;
-    margin: 0;
+    margin-bottom: 0;
     padding: 1em;
     text-align: center;
 }
@@ -42,6 +46,49 @@ header {
     font-style: italic;
     color: #333;
     margin-top: 0px;
+}
+.overview {
+    background-color: #d9d3e8;
+}
+.projects ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.projects ul li {
+    margin: 2em 0;
+    border-bottom: thin solid #555;
+}
+
+.projects ul li:hover {
+    background-color: #eff;
+}
+
+.projects ul li:last-child {
+    border-bottom: none;
+}
+
+.projects img {
+    display: inline-block;
+    margin-right: 2rem;
+    width: 250px;
+    border: thin solid #ddd;
+}
+
+.project-description {
+    display: inline-block;
+    width: 300px;
+}
+
+.explore-link {
+    text-align: right;
+}
+
+.explore-link a {
+    text-decoration: none;
+    font-family: Unica One, Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 footer {
