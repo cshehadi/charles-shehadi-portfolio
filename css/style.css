@@ -56,7 +56,7 @@ header {
     margin: 0 auto;
 }
 
-.projects ul li {
+.projects ul > li {
     margin: 2em 0;
     border-bottom: thin solid #555;
 }
@@ -74,6 +74,16 @@ header {
     margin-right: 2rem;
     width: 250px;
     border: thin solid #ddd;
+}
+
+@media (max-width: 632px) {
+    .projects ul > li {
+        width: 300px;
+        margin: 2em auto;
+    }
+    .projects img {
+        margin: 0 auto;
+    }
 }
 
 .project-description {
