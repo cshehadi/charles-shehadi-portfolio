@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: Unica One, Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    font-family: Vollkorn, Georgia, serif;
+}
+
+.content {
+    max-width: 40em;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+
+header {
+    background-color: #7986AC;
+}
+
+.projects {
+    background-color: #897BAF;
+}
+
+.another-section {
+    background-color: #69969C;
+}
+
+footer > ul {
+    padding-left: 0;
+    list-style: none;
+}
